@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 
-
 describe('Given I am on goole search page', () => {
   it('Visits the google site', () => {
     cy.visit('http://www.google.co.uk')
